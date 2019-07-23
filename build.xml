@@ -39,7 +39,7 @@
     </target>
 
     <target name="junit" depends="tjar">
-        <junit printsummary="yes">
+        <junit location="/usr/share/ant/lib/ant-junit4.jar" printsummary="yes">
         <classpath refid="classpath" />
         <classpath location="/usr/share/ant/lib/ant-junit4.jar"/>
         <test name="hellotest" haltonfailure="no" todir="test/results">
