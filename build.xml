@@ -38,7 +38,7 @@
         <java jar="build/jar/hello.jar" fork="true"/>
     </target>
 <!-- Run jUnit -->
-  <target name="junit" depends="resolve">
+  <target name="junit" >
 
 	<junit printsummary="yes" haltonfailure="no">
 
